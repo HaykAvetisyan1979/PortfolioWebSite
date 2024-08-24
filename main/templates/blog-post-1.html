@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en" class="no-js">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>{{ user_object.name }} {{ user_object.surname}} - Resume / CV </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="{{ user_object.name }} {{ user_object.surname}} - Resume / CV " />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
+    <meta name="author" content="lmpixels" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <script src="js/modernizr.custom.js"></script>
+    {% include "inc/css.html" %}
+  </head>
+
+  <body>
+    <!-- Animated Background -->
+    <div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
+    <!-- /Animated Background -->
+
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <div class="page">
+      <div class="page-content">
+
+
+        <header id="site_header" class="header mobile-menu-hide">
+          <div class="header-content">
+            <div class="header-photo">
+              <img src="{{ user_object.image.url}}" alt="{{ user_object.name }} {{ user_object.surname}}">
+            </div>
+            <div class="header-titles">
+              <h2>{{ user_object.name }} {{ user_object.surname}}</h2>
+              <h4>{{ user_object.profession}}</h4>
+            </div>
+          </div>
+
+          <ul class="main-menu">
+            <li class="active">
+              <a href="{% url "home" %}#home" class="nav-anim">
+                <span class="menu-icon lnr lnr-home"></span>
+                <span class="link-text">Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="{% url "home" %}#about-me" class="nav-anim">
+                <span class="menu-icon lnr lnr-user"></span>
+                <span class="link-text">About Me</span>
+              </a>
+            </li>
+            <li>
+              <a href="{% url "home" %}#resume" class="nav-anim">
+                <span class="menu-icon lnr lnr-graduation-hat"></span>
+                <span class="link-text">Resume</span>
+              </a>
+            </li>
+            <li>
+              <a href="{% url "home" %}#portfolio" class="nav-anim">
+                <span class="menu-icon lnr lnr-briefcase"></span>
+                <span class="link-text">Portfolio</span>
+              </a>
+            </li>
+            <li>
+              <a href="{% url "home" %}#blog" class="nav-anim">
+                <span class="menu-icon lnr lnr-book"></span>
+                <span class="link-text">Blog</span>
+              </a>
+            </li>
+            <li>
+              <a href="{% url "home" %}#contact" class="nav-anim">
+                <span class="menu-icon lnr lnr-envelope"></span>
+                <span class="link-text">Contact</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="social-links">
+            <ul>
+              {% if user_object.linkedin %}
+                <li><a href="{{ user_object.linkedin }}" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+              {% endif %}
+              {% if user_object.facebook %}
+                <li><a href="{{ user_object.facebook }}" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+              {% endif %}
+              {% if user_object.twitter %}
+                <li><a href="{{ user_object.twitter }}" target="_blank"><i class="fab fa-twitter"></i></a></li>
+              {% endif %}
+              {% if user_object.instagram %}
+                <li><a href="{{ user_object.twitter }}" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              {% endif %}
+            </ul>
+          </div>
+
+          <div class="header-buttons">
+            <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
+          </div>
+
+          <div class="copyrights">© 2024 All rights reserved.</div>
+        </header>
+
+          <!-- Mobile Navigation -->
+          <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <!-- End Mobile Navigation -->
+
+          <div class="content-area single-page-area">
+            <div class="single-page-content">
+
+              <article class="post">
+
+                <div class="post-thumbnail">
+                  <img src="{{ blog.image.url }}" alt="image">
+                </div>
+
+                <div class="post-content">
+                  <!-- /Entry header -->
+                  <header class="entry-header">
+                    <!-- Entry meta -->
+                    <div class="entry-meta entry-meta-top">
+                      <span><a href="#" rel="category tag">{{ blog.main_tag}}</a></span>        
+                    </div>
+                    <!-- /Entry meta -->
+
+                    <h2 class="entry-title">{{ blog.title }}</h2>
+                  </header>
+                  <!-- /Entry header -->
+
+                  <!-- Entry content -->
+                  <div class="entry-content">
+                    <div class="row">
+                      <div class=" col-xs-12 col-sm-12 ">
+                        <div class="col-inner">
+                          {{ blog.text | safe }}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- /Entry content -->
+
+      
+                    <!-- Share Buttons -->
+                    <div class="entry-share btn-group share-buttons">
+                      <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                      </a>
+                      
+                      <a href="#" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" class="btn" target="_blank" title="Share on Twitter">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+
+                      <a href="#" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;" class="btn" title="Share on LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                      </a>
+                    </div>
+                    <!-- /Share Buttons -->
+                  </div>
+
+                  <div class="post-tags">
+                    <div class="tags">
+                      {% for tag in blog.tags.all %}
+                      <a href="#" rel="tag">{{ tag.name }}</a>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </article>
+
+            </div>
+          </div>
+
+      </div>
+    </div>
+    {% include "inc/js.html" %}
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+    <script src="js/jquery.googlemap.js"></script>
+
+</body>
+</html>

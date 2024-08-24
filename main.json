@@ -1,0 +1,591 @@
+[
+{
+    "model": "main.me",
+    "pk": 1,
+    "fields": {
+        "image": "profile_images/main_photo_vvy5PJ1.jpg",
+        "name": "John",
+        "surname": "Smith",
+        "age": 32,
+        "residence": "USA",
+        "address": "Yerevan, Armenia",
+        "email": "agent@fbr.com",
+        "phone": "+37477777777",
+        "profession": "Web Designer",
+        "linkedin": "http://www.Linkedin.com",
+        "facebook": "http://www.Facebook.com",
+        "instagram": "http://www.Instagram.com",
+        "twitter": "http://www.Twitter.com",
+        "cv_file": "cvs/style.css"
+    }
+},
+{
+    "model": "main.contactwithme",
+    "pk": 1,
+    "fields": {
+        "full_name": "asfasf",
+        "email": "asds@gmail.com",
+        "subject": "asjdfasd",
+        "message": "asdkjfhasd"
+    }
+},
+{
+    "model": "main.aboutme",
+    "pk": 1,
+    "fields": {
+        "text": "<p><span style=\"color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\"><b>Proin </b><i>volutpat mauris ac pellentesque pharetra. Suspendisse congue elit vel odio suscipit, sit amet tempor nisl imperdiet. Quisque ex justo, faucibus ut mi in, condimentum finibus dolor. Aliquam vitae hendrerit dolor, eget imperdiet mauris. Maecenas et ante id ipsum condimentum dictum et vel massa. Ut in imperdiet dolor, vel consectetur dui.<br></i></span><br></p>"
+    }
+},
+{
+    "model": "main.whatido",
+    "pk": 1,
+    "fields": {
+        "icon": "lnr lnr-store",
+        "title": "Ecommerce",
+        "text": "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."
+    }
+},
+{
+    "model": "main.whatido",
+    "pk": 2,
+    "fields": {
+        "icon": "lnr lnr-pencil",
+        "title": "Copywriting",
+        "text": "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."
+    }
+},
+{
+    "model": "main.whatido",
+    "pk": 3,
+    "fields": {
+        "icon": "lnr lnr-laptop-phone",
+        "title": "Web Design",
+        "text": "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."
+    }
+},
+{
+    "model": "main.whatido",
+    "pk": 4,
+    "fields": {
+        "icon": "lnr lnr-flag",
+        "title": "Management",
+        "text": "Pellentesque pellentesque, ipsum sit amet auctor accumsan, odio tortor bibendum massa, sit amet ultricies ex lectus scelerisque nibh. Ut non sodales."
+    }
+},
+{
+    "model": "main.testimonials",
+    "pk": 1,
+    "fields": {
+        "image": "testimonials/testimonial-1.jpg",
+        "text": "qwerty",
+        "full_name": "Julia Hackman",
+        "company_name": "Happy Friends"
+    }
+},
+{
+    "model": "main.testimonials",
+    "pk": 2,
+    "fields": {
+        "image": "testimonials/testimonial-2.jpg",
+        "text": "asdfgh",
+        "full_name": "Robert Watkins",
+        "company_name": "Angry Friends"
+    }
+},
+{
+    "model": "main.testimonials",
+    "pk": 3,
+    "fields": {
+        "image": "testimonials/testimonial-3.jpg",
+        "text": "zxcvbn",
+        "full_name": "Kristian Carrol",
+        "company_name": "Beautifall Friends"
+    }
+},
+{
+    "model": "main.client",
+    "pk": 1,
+    "fields": {
+        "logo": "client-1.png",
+        "url": "http://www.qwerty.com"
+    }
+},
+{
+    "model": "main.client",
+    "pk": 2,
+    "fields": {
+        "logo": "client-2.png",
+        "url": "http://www.qwerty.com"
+    }
+},
+{
+    "model": "main.client",
+    "pk": 3,
+    "fields": {
+        "logo": "client-3.png",
+        "url": "http://www.qwerty.com"
+    }
+},
+{
+    "model": "main.client",
+    "pk": 4,
+    "fields": {
+        "logo": "client-5.png",
+        "url": "http://www.qwerty.com"
+    }
+},
+{
+    "model": "main.client",
+    "pk": 5,
+    "fields": {
+        "logo": "client-4.png",
+        "url": "http://www.qwerty.com"
+    }
+},
+{
+    "model": "main.client",
+    "pk": 6,
+    "fields": {
+        "logo": "client-6.png",
+        "url": "http://www.qwerty.com"
+    }
+},
+{
+    "model": "main.client",
+    "pk": 7,
+    "fields": {
+        "logo": "client-7.png",
+        "url": "http://www.qwerty.com"
+    }
+},
+{
+    "model": "main.education",
+    "pk": 1,
+    "fields": {
+        "year": 2008,
+        "institution": "University of Studies",
+        "specialization": "Frontend Development",
+        "about": "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante."
+    }
+},
+{
+    "model": "main.education",
+    "pk": 2,
+    "fields": {
+        "year": 2007,
+        "institution": "University of Studies",
+        "specialization": "Graphic Design",
+        "about": "Aliquam tincidunt malesuada tortor vitae iaculis. In eu turpis iaculis, feugiat risus quis, aliquet urna. Quisque fringilla mollis risus, eu pulvinar dolor."
+    }
+},
+{
+    "model": "main.skilltype",
+    "pk": 1,
+    "fields": {
+        "type": "Design Skills"
+    }
+},
+{
+    "model": "main.skilltype",
+    "pk": 2,
+    "fields": {
+        "type": "Coding Skills"
+    }
+},
+{
+    "model": "main.skill",
+    "pk": 1,
+    "fields": {
+        "skill_type": 1,
+        "skill_name": "Web Design",
+        "level": "95"
+    }
+},
+{
+    "model": "main.skill",
+    "pk": 2,
+    "fields": {
+        "skill_type": 1,
+        "skill_name": "Print Design",
+        "level": "65"
+    }
+},
+{
+    "model": "main.skill",
+    "pk": 3,
+    "fields": {
+        "skill_type": 1,
+        "skill_name": "Logo Design",
+        "level": "80"
+    }
+},
+{
+    "model": "main.skill",
+    "pk": 4,
+    "fields": {
+        "skill_type": 1,
+        "skill_name": "Graphic Design",
+        "level": "90"
+    }
+},
+{
+    "model": "main.skill",
+    "pk": 5,
+    "fields": {
+        "skill_type": 2,
+        "skill_name": "JavaScript",
+        "level": "95"
+    }
+},
+{
+    "model": "main.skill",
+    "pk": 6,
+    "fields": {
+        "skill_type": 2,
+        "skill_name": "PHP",
+        "level": "85"
+    }
+},
+{
+    "model": "main.skill",
+    "pk": 7,
+    "fields": {
+        "skill_type": 2,
+        "skill_name": "HTML/CSS",
+        "level": "99"
+    }
+},
+{
+    "model": "main.skill",
+    "pk": 8,
+    "fields": {
+        "skill_type": 2,
+        "skill_name": "Smarty/Twig",
+        "level": "75"
+    }
+},
+{
+    "model": "main.skill",
+    "pk": 9,
+    "fields": {
+        "skill_type": 2,
+        "skill_name": "Perl",
+        "level": "90"
+    }
+},
+{
+    "model": "main.knowledges",
+    "pk": 1,
+    "fields": {
+        "knowledge": "Marketing"
+    }
+},
+{
+    "model": "main.knowledges",
+    "pk": 2,
+    "fields": {
+        "knowledge": "Print"
+    }
+},
+{
+    "model": "main.knowledges",
+    "pk": 3,
+    "fields": {
+        "knowledge": "Digital Design"
+    }
+},
+{
+    "model": "main.knowledges",
+    "pk": 4,
+    "fields": {
+        "knowledge": "Social Media"
+    }
+},
+{
+    "model": "main.knowledges",
+    "pk": 5,
+    "fields": {
+        "knowledge": "Time Management"
+    }
+},
+{
+    "model": "main.knowledges",
+    "pk": 6,
+    "fields": {
+        "knowledge": "Communication"
+    }
+},
+{
+    "model": "main.knowledges",
+    "pk": 7,
+    "fields": {
+        "knowledge": "Problem-Solving"
+    }
+},
+{
+    "model": "main.knowledges",
+    "pk": 8,
+    "fields": {
+        "knowledge": "Social Networking"
+    }
+},
+{
+    "model": "main.knowledges",
+    "pk": 9,
+    "fields": {
+        "knowledge": "Flexibility"
+    }
+},
+{
+    "model": "main.workingexperience",
+    "pk": 1,
+    "fields": {
+        "start_year": "2016-01-01",
+        "end_year": "2024-08-19",
+        "company": "Google",
+        "role": "Lead Ui/Ux Designer",
+        "text": "Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna."
+    }
+},
+{
+    "model": "main.workingexperience",
+    "pk": 2,
+    "fields": {
+        "start_year": "2013-01-01",
+        "end_year": "2016-01-01",
+        "company": "Adobe",
+        "role": "Senior Ui/Ux Designer",
+        "text": "Maecenas tempus faucibus rutrum. Duis eu aliquam urna. Proin vitae nulla tristique, ornare felis id, congue libero. Nam volutpat euismod quam."
+    }
+},
+{
+    "model": "main.workingexperience",
+    "pk": 3,
+    "fields": {
+        "start_year": "2011-01-01",
+        "end_year": "2013-01-01",
+        "company": "Google",
+        "role": "Junior Ui/Ux Designer",
+        "text": "Duis mollis nunc quis quam viverra venenatis. Nulla nulla arcu, congue vitae nunc ac, sodales ultricies diam. Nullam justo leo, tincidunt sit amet."
+    }
+},
+{
+    "model": "main.certificates",
+    "pk": 1,
+    "fields": {
+        "logo": "certificates/client-1.png",
+        "certification": "Psyhology of Intertnation Design",
+        "membership_id": "Membership ID: 1111",
+        "date": "2018-04-19"
+    }
+},
+{
+    "model": "main.certificates",
+    "pk": 2,
+    "fields": {
+        "logo": "certificates/client-1_HXQj2hj.png",
+        "certification": "Psyhology of Intertnation Design",
+        "membership_id": "Membership ID: 2222",
+        "date": "2019-04-19"
+    }
+},
+{
+    "model": "main.portfoliocategory",
+    "pk": 1,
+    "fields": {
+        "name": "Detailed"
+    }
+},
+{
+    "model": "main.portfoliocategory",
+    "pk": 2,
+    "fields": {
+        "name": "Mockups"
+    }
+},
+{
+    "model": "main.portfoliocategory",
+    "pk": 3,
+    "fields": {
+        "name": "SoundCloud"
+    }
+},
+{
+    "model": "main.portfoliocategory",
+    "pk": 4,
+    "fields": {
+        "name": "Vimeo Videos"
+    }
+},
+{
+    "model": "main.portfoliocategory",
+    "pk": 5,
+    "fields": {
+        "name": "YouTube Videos"
+    }
+},
+{
+    "model": "main.portfolioitems",
+    "pk": 2,
+    "fields": {
+        "category": 1,
+        "image": "2_JfTch4W.jpg",
+        "media": "portfolioItems/2_U30hKFz.jpg",
+        "title": "Detailed Project 2"
+    }
+},
+{
+    "model": "main.portfolioitems",
+    "pk": 3,
+    "fields": {
+        "category": 1,
+        "image": "4.jpg",
+        "media": "portfolioItems/4.jpg",
+        "title": "Detailed Project 1"
+    }
+},
+{
+    "model": "main.portfolioitems",
+    "pk": 4,
+    "fields": {
+        "category": 2,
+        "image": "5.jpg",
+        "media": "portfolioItems/5.jpg",
+        "title": "Mockup Design 1"
+    }
+},
+{
+    "model": "main.portfolioitems",
+    "pk": 5,
+    "fields": {
+        "category": 3,
+        "image": "1.jpg",
+        "media": "portfolioItems/1.jpg",
+        "title": "SoundCloud Audio"
+    }
+},
+{
+    "model": "main.portfolioitems",
+    "pk": 6,
+    "fields": {
+        "category": 4,
+        "image": "3.jpg",
+        "media": "portfolioItems/3.jpg",
+        "title": "Vimeo Video 1"
+    }
+},
+{
+    "model": "main.portfolioitems",
+    "pk": 7,
+    "fields": {
+        "category": 5,
+        "image": "6.jpg",
+        "media": "portfolioItems/6.jpg",
+        "title": "YouTube Video 1"
+    }
+},
+{
+    "model": "main.tag",
+    "pk": 1,
+    "fields": {
+        "name": "UI"
+    }
+},
+{
+    "model": "main.tag",
+    "pk": 2,
+    "fields": {
+        "name": "Processing"
+    }
+},
+{
+    "model": "main.tag",
+    "pk": 3,
+    "fields": {
+        "name": "Data"
+    }
+},
+{
+    "model": "main.tag",
+    "pk": 4,
+    "fields": {
+        "name": "Chocolate"
+    }
+},
+{
+    "model": "main.blog",
+    "pk": 1,
+    "fields": {
+        "image": "blog/blog_post_1.jpg",
+        "image_full": "Blog/full/blog_post_1_full.jpg",
+        "main_tag": "Design",
+        "title": "Why I Switched to Sketch For UI Design",
+        "text": "<p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Nulla nulla nisl, sodales ac nulla ac, consequat vulputate purus. Curabitur tincidunt ipsum vel nibh rutrum accumsan. Nunc ullamcorper posuere leo, vitae aliquet risus pharetra in. Integer turpis eros, iaculis et mi non, pulvinar egestas leo. Etiam sagittis ex turpis, vitae cursus tortor interdum eu. Quisque ultrices nunc eget erat vestibulum euismod. Ut mauris nisi, facilisis at arcu nec, facilisis porttitor lorem.</p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Vivamus vitae neque molestie, porta libero sed, tincidunt leo. In nec posuere odio, id rhoncus lorem. Proin id erat ut dolor condimentum viverra. Praesent viverra sed dolor ac luctus. Praesent placerat id lorem quis lacinia.</p><blockquote class=\"quote\" style=\"box-sizing: inherit; margin-top: 20px; margin-bottom: 20px; padding: 15px 20px; font-size: 15px; border-left: 2px solid rgb(216, 216, 216); font-style: italic; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif;\">Maecenas id finibus felis. Etiam vitae nibh et felis efficitur pellentesque. Mauris suscipit sapien nunc, a lacinia nibh feugiat ut. In hac habitasse platea dictumst.<footer class=\"quote-author\" style=\"box-sizing: inherit;\"><span style=\"box-sizing: inherit;\">Larry L. Johnson</span></footer></blockquote><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Etiam interdum vulputate risus, vitae elementum neque consectetur sed. Donec at risus dui. Ut in suscipit neque. Vestibulum sit amet lobortis magna, commodo venenatis ante. Cras molestie, ex a auctor lacinia, risus est aliquam risus, sit amet semper purus tortor id ante. Donec lacus ipsum, porttitor et libero a, fringilla auctor quam. Sed in nisl id libero tincidunt aliquet. Aenean dui ipsum, auctor ut leo ut, semper dignissim lacus. Suspendisse faucibus viverra consequat. Maecenas efficitur massa vel eros sagittis dapibus. Nam lobortis mi in turpis hendrerit eleifend. Nulla non massa felis.</p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Donec sit amet dolor ante. Vivamus vel massa accumsan, faucibus quam quis, convallis velit. Aliquam erat volutpat. Integer imperdiet diam quis arcu venenatis, quis sagittis nibh rhoncus. Donec non nisi scelerisque, sodales metus quis, accumsan mauris. Curabitur volutpat risus rutrum erat condimentum tristique. Nullam at felis diam. Quisque dictum felis non ante pretium mollis. Aliquam turpis neque, varius nec diam a, aliquam pulvinar diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ipsum libero, aliquet sed bibendum faucibus, semper a dui.</p>",
+        "date": "2020-03-05",
+        "author": "LMPixels",
+        "facebook": "http://www.Facebook.com",
+        "twitter": "http://www.Twitter.com",
+        "linkedin": "http://www.Linkedin.com",
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "main.blog",
+    "pk": 2,
+    "fields": {
+        "image": "blog/blog_post_2.jpg",
+        "image_full": "Blog/full/blog_post_1.jpg",
+        "main_tag": "UI",
+        "title": "Best Practices for Animated Progress Indicators",
+        "text": "<p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Nulla nulla nisl, sodales ac nulla ac, consequat vulputate purus. Curabitur tincidunt ipsum vel nibh rutrum accumsan. Nunc ullamcorper posuere leo, vitae aliquet risus pharetra in. Integer turpis eros, iaculis et mi non, pulvinar egestas leo. Etiam sagittis ex turpis, vitae cursus tortor interdum eu. Quisque ultrices nunc eget erat vestibulum euismod. Ut mauris nisi, facilisis at arcu nec, facilisis porttitor lorem.</p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Vivamus vitae neque molestie, porta libero sed, tincidunt leo. In nec posuere odio, id rhoncus lorem. Proin id erat ut dolor condimentum viverra. Praesent viverra sed dolor ac luctus. Praesent placerat id lorem quis lacinia.</p><blockquote class=\"quote\" style=\"box-sizing: inherit; margin-top: 20px; margin-bottom: 20px; padding: 15px 20px; font-size: 15px; border-left: 2px solid rgb(216, 216, 216); font-style: italic; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif;\">Maecenas id finibus felis. Etiam vitae nibh et felis efficitur pellentesque. Mauris suscipit sapien nunc, a lacinia nibh feugiat ut. In hac habitasse platea dictumst.<footer class=\"quote-author\" style=\"box-sizing: inherit;\"><span style=\"box-sizing: inherit;\">Larry L. Johnson</span></footer></blockquote><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Etiam interdum vulputate risus, vitae elementum neque consectetur sed. Donec at risus dui. Ut in suscipit neque. Vestibulum sit amet lobortis magna, commodo venenatis ante. Cras molestie, ex a auctor lacinia, risus est aliquam risus, sit amet semper purus tortor id ante. Donec lacus ipsum, porttitor et libero a, fringilla auctor quam. Sed in nisl id libero tincidunt aliquet. Aenean dui ipsum, auctor ut leo ut, semper dignissim lacus. Suspendisse faucibus viverra consequat. Maecenas efficitur massa vel eros sagittis dapibus. Nam lobortis mi in turpis hendrerit eleifend. Nulla non massa felis.</p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Donec sit amet dolor ante. Vivamus vel massa accumsan, faucibus quam quis, convallis velit. Aliquam erat volutpat. Integer imperdiet diam quis arcu venenatis, quis sagittis nibh rhoncus. Donec non nisi scelerisque, sodales metus quis, accumsan mauris. Curabitur volutpat risus rutrum erat condimentum tristique. Nullam at felis diam. Quisque dictum felis non ante pretium mollis. Aliquam turpis neque, varius nec diam a, aliquam pulvinar diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ipsum libero, aliquet sed bibendum faucibus, semper a dui.</p>",
+        "date": "2020-02-23",
+        "author": "LMPixels",
+        "facebook": "http://www.Facebook.com",
+        "twitter": "http://www.Twitter.com",
+        "linkedin": "http://www.Linkedin.com",
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "main.blog",
+    "pk": 3,
+    "fields": {
+        "image": "blog/blog_post_3.jpg",
+        "image_full": "Blog/full/blog_post_1_full_lpFVs6E.jpg",
+        "main_tag": "Design",
+        "title": "Designing the Perfect Feature Comparison Table",
+        "text": "<p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Nulla nulla nisl, sodales ac nulla ac, consequat vulputate purus. Curabitur tincidunt ipsum vel nibh rutrum accumsan. Nunc ullamcorper posuere leo, vitae aliquet risus pharetra in. Integer turpis eros, iaculis et mi non, pulvinar egestas leo. Etiam sagittis ex turpis, vitae cursus tortor interdum eu. Quisque ultrices nunc eget erat vestibulum euismod. Ut mauris nisi, facilisis at arcu nec, facilisis porttitor lorem.</p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Vivamus vitae neque molestie, porta libero sed, tincidunt leo. In nec posuere odio, id rhoncus lorem. Proin id erat ut dolor condimentum viverra. Praesent viverra sed dolor ac luctus. Praesent placerat id lorem quis lacinia.</p><blockquote class=\"quote\" style=\"box-sizing: inherit; margin-top: 20px; margin-bottom: 20px; padding: 15px 20px; font-size: 15px; border-left: 2px solid rgb(216, 216, 216); font-style: italic; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif;\">Maecenas id finibus felis. Etiam vitae nibh et felis efficitur pellentesque. Mauris suscipit sapien nunc, a lacinia nibh feugiat ut. In hac habitasse platea dictumst.<footer class=\"quote-author\" style=\"box-sizing: inherit;\"><span style=\"box-sizing: inherit;\">Larry L. Johnson</span></footer></blockquote><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Etiam interdum vulputate risus, vitae elementum neque consectetur sed. Donec at risus dui. Ut in suscipit neque. Vestibulum sit amet lobortis magna, commodo venenatis ante. Cras molestie, ex a auctor lacinia, risus est aliquam risus, sit amet semper purus tortor id ante. Donec lacus ipsum, porttitor et libero a, fringilla auctor quam. Sed in nisl id libero tincidunt aliquet. Aenean dui ipsum, auctor ut leo ut, semper dignissim lacus. Suspendisse faucibus viverra consequat. Maecenas efficitur massa vel eros sagittis dapibus. Nam lobortis mi in turpis hendrerit eleifend. Nulla non massa felis.</p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Donec sit amet dolor ante. Vivamus vel massa accumsan, faucibus quam quis, convallis velit. Aliquam erat volutpat. Integer imperdiet diam quis arcu venenatis, quis sagittis nibh rhoncus. Donec non nisi scelerisque, sodales metus quis, accumsan mauris. Curabitur volutpat risus rutrum erat condimentum tristique. Nullam at felis diam. Quisque dictum felis non ante pretium mollis. Aliquam turpis neque, varius nec diam a, aliquam pulvinar diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ipsum libero, aliquet sed bibendum faucibus, semper a dui.</p>",
+        "date": "2020-02-06",
+        "author": "LMPixels",
+        "facebook": "http://www.Facebook.com",
+        "twitter": "http://www.Twitter.com",
+        "linkedin": "http://www.Linkedin.com",
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "main.blog",
+    "pk": 4,
+    "fields": {
+        "image": "blog/blog_post_4.jpg",
+        "image_full": "Blog/full/blog_post_1_full_fLfgNKQ.jpg",
+        "main_tag": "UI",
+        "title": "An Overview of E-Commerce Platforms",
+        "text": "<p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Nulla nulla nisl, sodales ac nulla ac, consequat vulputate purus. Curabitur tincidunt ipsum vel nibh rutrum accumsan. Nunc ullamcorper posuere leo, vitae aliquet risus pharetra in. Integer turpis eros, iaculis et mi non, pulvinar egestas leo. Etiam sagittis ex turpis, vitae cursus tortor interdum eu. Quisque ultrices nunc eget erat vestibulum euismod. Ut mauris nisi, facilisis at arcu nec, facilisis porttitor lorem.</p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Vivamus vitae neque molestie, porta libero sed, tincidunt leo. In nec posuere odio, id rhoncus lorem. Proin id erat ut dolor condimentum viverra. Praesent viverra sed dolor ac luctus. Praesent placerat id lorem quis lacinia.</p><blockquote class=\"quote\" style=\"box-sizing: inherit; margin-top: 20px; margin-bottom: 20px; padding: 15px 20px; font-size: 15px; border-left: 2px solid rgb(216, 216, 216); font-style: italic; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif;\">Maecenas id finibus felis. Etiam vitae nibh et felis efficitur pellentesque. Mauris suscipit sapien nunc, a lacinia nibh feugiat ut. In hac habitasse platea dictumst.<footer class=\"quote-author\" style=\"box-sizing: inherit;\"><span style=\"box-sizing: inherit;\">Larry L. Johnson</span></footer></blockquote><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Etiam interdum vulputate risus, vitae elementum neque consectetur sed. Donec at risus dui. Ut in suscipit neque. Vestibulum sit amet lobortis magna, commodo venenatis ante. Cras molestie, ex a auctor lacinia, risus est aliquam risus, sit amet semper purus tortor id ante. Donec lacus ipsum, porttitor et libero a, fringilla auctor quam. Sed in nisl id libero tincidunt aliquet. Aenean dui ipsum, auctor ut leo ut, semper dignissim lacus. Suspendisse faucibus viverra consequat. Maecenas efficitur massa vel eros sagittis dapibus. Nam lobortis mi in turpis hendrerit eleifend. Nulla non massa felis.</p><p style=\"box-sizing: inherit; margin-right: 0px; margin-bottom: 10px; margin-left: 0px; color: rgb(85, 85, 85); font-family: poppins, Helvetica, sans-serif; font-size: 15px;\">Donec sit amet dolor ante. Vivamus vel massa accumsan, faucibus quam quis, convallis velit. Aliquam erat volutpat. Integer imperdiet diam quis arcu venenatis, quis sagittis nibh rhoncus. Donec non nisi scelerisque, sodales metus quis, accumsan mauris. Curabitur volutpat risus rutrum erat condimentum tristique. Nullam at felis diam. Quisque dictum felis non ante pretium mollis. Aliquam turpis neque, varius nec diam a, aliquam pulvinar diam. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed ipsum libero, aliquet sed bibendum faucibus, semper a dui.</p>",
+        "date": "2020-01-07",
+        "author": "LMPixels",
+        "facebook": "http://www.Facebook.com",
+        "twitter": "http://www.Twitter.com",
+        "linkedin": "http://www.Linkedin.com",
+        "tags": [
+            1
+        ]
+    }
+}
+]

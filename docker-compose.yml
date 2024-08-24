@@ -1,0 +1,41 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: PortfolioDB
+      POSTGRES_USER: Admin
+      POSTGRES_PASSWORD: Admin
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - postgres_network
+
+  web:
+    build:
+      context: .
+    command: ./entrypoint.sh
+    volumes:
+      - .:/Portfolio
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      DEBUG: "True"
+      DB_NAME: "PortfolioDB"
+      DB_USER: "Admin"
+      DB_PASSWORD: "Admin"
+      DB_HOST: "db"
+      DB_PORT: "5432"
+    networks:
+      - postgres_network
+
+networks:
+  postgres_network:
+
+volumes:
+  postgres_data:

@@ -5,8 +5,8 @@ services:
     image: postgres:15
     environment:
       POSTGRES_DB: PortfolioDB
-      POSTGRES_USER: Admin
-      POSTGRES_PASSWORD: Admin
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
     volumes:
       - postgres_data:/var/lib/postgresql/data
     ports:
@@ -27,8 +27,8 @@ services:
     environment:
       DEBUG: "True"
       DB_NAME: "PortfolioDB"
-      DB_USER: "Admin"
-      DB_PASSWORD: "Admin"
+      DB_USER: "postgres"
+      DB_PASSWORD: "admin"
       DB_HOST: "db"
       DB_PORT: "5432"
     networks:

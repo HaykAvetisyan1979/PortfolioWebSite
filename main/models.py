@@ -3,7 +3,7 @@ from django.core.exceptions import ValidationError
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from phonenumber_field.modelfields import PhoneNumberField
-from django.utils.html import mark_safe, format_html
+from django.utils.html import format_html
 from typing import Iterable, Optional
 
 class Me(models.Model):
@@ -186,10 +186,11 @@ class WorkingExperience(models.Model):
 
     def save(self, force_insert: bool = False, force_update: bool = False, using: Optional[str] = None, update_fields: Optional[Iterable[str]] = None) -> None:
         # Format date fields
-        if self.start_year:
-            self.start_year = self.start_year.strftime('%Y%m%d')
-        if self.end_year:
-            self.end_year = self.end_year.strftime('%Y%m%d')
+        # if self.start_year:
+        #     self.start_year = self.start_year.strftime('%d%m%Y')
+            
+        # if self.end_year:
+        #     self.end_year = self.end_year.strftime('%Y%m%d')
 
         # Call the parent class's save method
         super().save(force_insert=force_insert, force_update=force_update, using=using, update_fields=update_fields)

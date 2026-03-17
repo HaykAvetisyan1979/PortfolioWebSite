@@ -103,5 +103,8 @@ class BlogPost1View(TemplateView):
         context.update({
             'blog': blog,
         })
+        # context['blog'] = blog
+        
+        # context['blog']=blog
         return render(request, self.template_name, context=context)
     
